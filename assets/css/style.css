@@ -1,0 +1,28 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+}
+
+.jumbotron {
+    text-align: center;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    font-family: cursive;
+    padding: 1%;
+}
+
+.btn {
+    margin: 0.25%;
+}
+
+.gifs {
+    float: left;
+    margin-left: 0.25%;
+    margin-top: 1%;
+}
