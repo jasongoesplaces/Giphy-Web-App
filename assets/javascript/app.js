@@ -103,7 +103,7 @@ $( document ).ready(function() {
     //event listeners
 
     //when one of the buttons with the animals class is clicked it shows the gifs for that animal search
-    $(document).on("click", ".animals", showGifs);
+    $(document).on("click", ".animals", showGifs());
 
     //when an image is clicked, its state is changed to from still to animated and back when it is clicked again
     $(document).on("click", ".image", function(){
