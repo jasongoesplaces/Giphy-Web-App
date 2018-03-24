@@ -57,7 +57,7 @@ $( document ).ready(function() {
         //variables used to set the search url
         //takes the animal attribute from the button clicked on and inserts it into the url as the search term
         var animal = $(this).attr("animal");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&limit=10&api_key=dYOQQLuboy9Bcqafl7dwoUSKA86xYSlB";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&limit=10&api_key=dYOQQLuboy9Bcqafl7dwoUSKA86xYSlB";
         
         //ajax is run
         $.ajax({
